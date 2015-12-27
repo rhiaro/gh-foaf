@@ -21,9 +21,9 @@
   cert:key
        <#key>;
   sp:preferencesFile
-     <https://tigo.databox.me/preferences>;
+     <https://tigo.rww.io/Preferences/prefs>;
   sp:storage
-     <https://tigo.databox.me>;
+     <https://tigo.rww.io>;
 
   foaf:basedNear <http://dbpedia.org/resource/Edinburgh> .
 
