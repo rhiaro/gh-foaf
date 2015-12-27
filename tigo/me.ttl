@@ -1,0 +1,25 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix pos: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix cert: <http://www.w3.org/ns/auth/cert#> .
+@prefix sp: <http://www.w3.org/ns/pim/space#> .
+
+<https://rhiaro.github.io/gh-foaf/tigo/me.ttl>
+  a foaf:Person ;
+  foaf:name "Tigo" ;
+  foaf:givenName "Tigo" ;
+  owl:sameAs <http://tigo.rhiaro.co.uk#> ;
+  foaf:img <https://pbs.twimg.com/profile_banners/548372474/1414355747/1500x500> ;
+  foaf:homepage <http://tigo.rhiaro.co.uk>;
+
+  foaf:account <http://twitter.com/tigobirdtweets> ;
+
+  foaf:knows <http://rhiaro.co.uk/about#me> ;
+
+  foaf:basedNear <http://dbpedia.org/resource/Edinburgh> .
+
+<http://twitter.com/tigobirdtweets>
+      a foaf:OnlineAccount ;
+      foaf:accountServiceHomepage <http://twitter.com/> ;
+      foaf:accountName "tigobirdtweets" .
