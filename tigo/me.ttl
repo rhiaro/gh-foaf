@@ -19,11 +19,11 @@
 
 
   cert:key
-       <#key>, <#key2>;
+       <#key>;
   sp:preferencesFile
-     <https://rhiarobot.databox.me/preferences>;
+     <https://tigo.databox.me/preferences>;
   sp:storage
-     <https://rhiarobot.databox.me>;
+     <https://tigo.databox.me>;
 
   foaf:basedNear <http://dbpedia.org/resource/Edinburgh> .
 
