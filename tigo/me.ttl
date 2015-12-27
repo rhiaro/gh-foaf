@@ -17,9 +17,24 @@
 
   foaf:knows <http://rhiaro.co.uk/about#me> ;
 
+
+  cert:key
+       <#key>, <#key2>;
+  sp:preferencesFile
+     <https://rhiarobot.databox.me/preferences>;
+  sp:storage
+     <https://rhiarobot.databox.me>;
+
   foaf:basedNear <http://dbpedia.org/resource/Edinburgh> .
 
 <http://twitter.com/tigobirdtweets>
       a foaf:OnlineAccount ;
       foaf:accountServiceHomepage <http://twitter.com/> ;
       foaf:accountName "tigobirdtweets" .
+
+<#key>
+  a cert:RSAPublicKey;
+  cert:exponent
+  "65537"^^xsd:int;
+  cert:modulus
+  "98BE47AE3C93FE78E159CEFB8FF0F047FC002D62152E9EB0ABC0C0FD81421D79B49AAFBFBB04AB2AE50CCBCC8AA0DD00A8CE3F0B6CE9B0CFC8A1D949B79DC646C3C0F1C6FEA79F777E46C27337140D7CF3B2F8F92534966FA9F0541EAF08F656208494F38E60ED89AF777101D50E58A58FB66F070F0D23FAD8D6E0E56E2D692A3F011212D485554C04844522A935DF85444A61D68C228D3D7C8CF4B04A4B524D515FDF4A87658D1D396E30C162295B3003A766F15B33306396AA83606CE84BD126BBCB83E95C52548C0878AA46FE7FEF11C219598D273C9C6E0FD17E2D5FE34F5AFC78BF87E1960B960250539B88D2DBC9C9FCE34F997FE6355411063FDE69FF"^^xsd:hexBinary.
