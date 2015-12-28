@@ -7,4 +7,11 @@
 
 <https://rhiaro.github.io/gh-foaf/ogit/me.ttl>
   a foaf:Person ;
-  foaf:name "ogit" .
+  foaf:name "ogit" ;
+  cert:key
+       <#key> .
+
+<#key>
+  a cert:RSAPublicKey;
+  cert:exponent "65537"^^xsd:int;
+  cert:modulus "ac 01 51 8b 52 bd dd 89 c1 42 ea 6c 2f f7 99 96 c9 51 1f da f8 40 cb 8c 49 f1 89 d2 a4 01 be c8 2e 62 77 30 55 ca e6 71 9e be 01 00 f2 44 1b 0b 25 ac ef 2b 1a 78 c3 0c 6c 6d 3f 02 c8 91 ce ac 38 0e 1c 64 03 ac 08 25 97 92 6b 9b 66 80 60 bf b9 ed 11 c5 b3 eb 29 72 50 c2 cb ef 77 54 41 df 21 9c de 4b ea 85 41 59 16 b5 1d 63 04 b3 20 e7 b4 ce b1 fe 51 55 84 07 f4 27 8c 48 f1 ea a8 17"^^xsd:hexBinary.
