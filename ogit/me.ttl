@@ -1,0 +1,10 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix pos: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix cert: <http://www.w3.org/ns/auth/cert#> .
+@prefix sp: <http://www.w3.org/ns/pim/space#> .
+
+<https://rhiaro.github.io/gh-foaf/ogit/me.ttl>
+  a foaf:Person ;
+  foaf:name "ogit" .
